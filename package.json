@@ -1,0 +1,25 @@
+{
+  "name": "nodejsmongoosemongodb",
+  "version": "1.0.0",
+  "description": "Simple migration schema to MongoDB using Mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "Nodejs"
+  ],
+  "author": "Tiago Amaral https://linkedin.com/in/tiagoamaralios",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.21.0",
+    "mongoose": "8.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.7.4",
+    "typescript": "5.6.2"
+  }
+}
