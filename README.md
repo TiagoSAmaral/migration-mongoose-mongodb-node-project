@@ -14,6 +14,7 @@ ao seu banco de dados MongoDB em produção sem a necessidade de acesso direto a
 Toda a implementação está disponível na pasta `src/modules/migration`.
 
 --- 
+
 ### Funcionamento
  A lógica do procedimento é baseado na idéia que as alterações devem ocorrer na inicialização 
  da aplicação e somente uma única vez, sendo o processo todo gerenciado via código. 
@@ -28,6 +29,8 @@ a lista de actions já executadas anteriomente.
  Após executar o método `up` de cada action, ela é salva no banco de dados para previnir que seja executada novamente no futuro.
 
  No código possui explicações adicionais do funcionamento de cada ação.
+
+--- 
 
 ### Motivação e Propósito
 
