@@ -28,3 +28,7 @@ a lista de actions já executadas anteriomente.
  Após executar o método `up` de cada action, ela é salva no banco de dados para previnir que seja executada novamente no futuro.
 
  No código possui explicações adicionais do funcionamento de cada ação.
+
+### Motivação e Propósito
+
+ Deste modo é possível adicionar/alterar schemas no banco de dados de maneira padronizada dentro de uma equipe ou mesmo em projetos solos, garantindo um ponto comum de como proceder alterações diversas na base de dados.
